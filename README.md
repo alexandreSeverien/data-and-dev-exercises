@@ -1,0 +1,2 @@
+# data-and-dev-exercises
+ Ce dépôt rassemble divers projets et exercices réalisés dans le cadre de mon apprentissage en data science, développement Python, et compétences informatiques générales. Chacun des projets vise à renforcer mes connaissances et à démontrer mes capacités dans plusieurs domaines, notamment l’analyse de données, les statistiques, la programmation orientée objet, et l’algorithmie.
