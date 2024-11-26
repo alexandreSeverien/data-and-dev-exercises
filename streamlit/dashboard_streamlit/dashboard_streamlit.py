@@ -1,4 +1,5 @@
 import streamlit as st
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -49,3 +50,11 @@ elif selected_chart == 'line_chart':
     plt.ylabel(selected_y)
     st.pyplot(plt.gcf())
 
+
+correlation = selected_df.select_dtypes(include=np.number).corr()
+
+display_corr = st.checkbox("Afficher la matrice de corrélation")
+
+if display_corr:
+    sns.heatmap(correlation)
+    st.pyplot(plt.gcf())
